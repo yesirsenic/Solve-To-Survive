@@ -1,0 +1,534 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1714737509258609, "dur": 3855700, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714737509258849, "dur": 3465, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714737509262316, "dur": 49024, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714737509311342, "dur": 1921968, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714737511233313, "dur": 1879331, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714737513112647, "dur": 1660, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714737513115155, "dur": 23, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1714737510513721, "dur": 672697, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714737510515267, "dur": 85941, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714737511166821, "dur": 4629, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714737511171453, "dur": 14954, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714737511172069, "dur": 13411, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714737511192624, "dur": 2120, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714737511191476, "dur": 3331, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714737513115374, "dur": 400, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1714737511313590, "dur":1917, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737511315517, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1714737511315585, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1714737511315603, "dur":481, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1714737511316125, "dur":808, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737511316933, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513096778, "dur":238, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097016, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097043, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097047, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097060, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097061, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097068, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097069, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097075, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097076, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097084, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097085, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097090, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097092, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097098, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097099, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097104, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097129, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513097160, "dur":2372, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1714737511316742, "dur":241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511316983, "dur":6366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511323350, "dur":28153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1714737511351520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511351547, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1714737511354681, "dur":48202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511402890, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511403114, "dur":9611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511412835, "dur":7045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511419886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511419898, "dur":5840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511425850, "dur":8823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511434681, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511434702, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511438428, "dur":9090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511447531, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511447549, "dur":10067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511458137, "dur":16527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511474669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511474683, "dur":10168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511490279, "dur":12317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511502604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511502621, "dur":5471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511508448, "dur":13089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511521542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511521558, "dur":8078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511529832, "dur":11826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511541663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511541675, "dur":25411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511567199, "dur":20009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511587213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511587227, "dur":22537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511609859, "dur":127215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511737082, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511737101, "dur":8422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511745617, "dur":3625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511749252, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511749271, "dur":33017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511782395, "dur":56456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511838858, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737511838876, "dur":25828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737511864807, "dur":490857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737512355671, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737512355687, "dur":9719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737512365508, "dur":498768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737512864296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714737512864325, "dur":22195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714737512886628, "dur":210096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511316658, "dur":287, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511316947, "dur":6236, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511323196, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1714737511323206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511326021, "dur":587, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1714737511326615, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1714737511326754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511327305, "dur":6276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1714737511333587, "dur":21245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1714737511354838, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511354856, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1714737511358844, "dur":79802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive.exe" }}
+,{ "pid":12345, "tid":2, "ts":1714737511438651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511438664, "dur":5064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive.exe" }}
+,{ "pid":12345, "tid":2, "ts":1714737511443822, "dur":8331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511452168, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511452198, "dur":5604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511458260, "dur":8788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511467055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511467075, "dur":14072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511481364, "dur":10374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511491748, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511491768, "dur":12735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511504596, "dur":6452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511511057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511511086, "dur":9844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511521033, "dur":10870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511531915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511531935, "dur":8900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511540947, "dur":27393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511568356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511568381, "dur":12829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511581317, "dur":23131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511604457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511604475, "dur":13406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511618030, "dur":25695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511643733, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511643751, "dur":37309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511681187, "dur":140583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511821778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511821794, "dur":7441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511829335, "dur":57402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511886756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737511886898, "dur":8656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737511895645, "dur":264530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737512160183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737512160199, "dur":7930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737512168239, "dur":97444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737512265695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737512265727, "dur":11241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737512277146, "dur":281785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737512558941, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737512558960, "dur":15441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714737512574512, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714737512574636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737512574650, "dur":20728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714737512595489, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1714737512602834, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737512602858, "dur":45715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1714737512648722, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714737512648836, "dur":400, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714737512649247, "dur":26618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1714737512676139, "dur":420587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511316692, "dur":279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511316972, "dur":6431, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511323404, "dur":18585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1714737511341994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511342025, "dur":7849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1714737511349959, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1714737511350370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511350386, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1714737511352751, "dur":4533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511357290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511357790, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511360246, "dur":14462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511374746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511375681, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511377217, "dur":5733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511382955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511382968, "dur":4975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511388136, "dur":9585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511397726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511397739, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511400975, "dur":8597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511409577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511409594, "dur":4193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511413895, "dur":6174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511420077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511420089, "dur":5762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511426192, "dur":15438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511441639, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511441661, "dur":14750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511456544, "dur":13346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511469897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511469915, "dur":13098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511483132, "dur":14512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511497686, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511497706, "dur":12626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511510685, "dur":13109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511523801, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511523853, "dur":11527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511535479, "dur":21359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511556842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511556853, "dur":23439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511580427, "dur":9338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511589770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511589786, "dur":21971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511612017, "dur":144861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511756886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511756903, "dur":25358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511782383, "dur":106387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511888777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737511888792, "dur":52596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737511941482, "dur":274844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737512216336, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737512216353, "dur":53728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737512270202, "dur":238426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737512508636, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737512508654, "dur":4860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737512513619, "dur":447601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737512961229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714737512961252, "dur":5696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714737512967407, "dur":129356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511316736, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511316978, "dur":6390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511323368, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1714737511324231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511327684, "dur":11790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1714737511339579, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1714737511339698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511340625, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1714737511343078, "dur":15992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714737511359075, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511359097, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714737511361667, "dur":13267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511374939, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511375804, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511377458, "dur":6514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511383978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511383991, "dur":4271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511389246, "dur":7948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511397231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511397246, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511401323, "dur":10586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511411914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511411973, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511415085, "dur":8234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511423329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511423348, "dur":3009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511426623, "dur":8747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511435374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511435384, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511438863, "dur":8653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511447530, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511447549, "dur":10332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511458587, "dur":13783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511472376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511472390, "dur":10498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511482995, "dur":8774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511491775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511491788, "dur":15606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511507534, "dur":13761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511521300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511521314, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511523717, "dur":11259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511534983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511535000, "dur":4096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511539293, "dur":32700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511572003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511572045, "dur":10480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511582625, "dur":23657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511606317, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737511606411, "dur":5389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737511612018, "dur":407414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737512019440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737512019460, "dur":5479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737512025037, "dur":65380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737512090423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737512090441, "dur":4096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737512094667, "dur":62324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737512156998, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737512157014, "dur":9691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737512166798, "dur":428291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737512595101, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737512595130, "dur":20679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714737512615952, "dur":16411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1714737512632370, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737512632386, "dur":17612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1714737512650096, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1714737512650188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737512650198, "dur":21848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1714737512672168, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1714737512675860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714737512675890, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1714737512677961, "dur":418760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511316809, "dur":203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511317012, "dur":6174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511323196, "dur":64009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1714737511387214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511388657, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1714737511391547, "dur":7975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511399530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511399545, "dur":5069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511404716, "dur":9295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511414015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511414036, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511415747, "dur":23643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511439395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511439407, "dur":5195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511444686, "dur":7637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511452380, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511452405, "dur":6907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511460780, "dur":13876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511474664, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511474683, "dur":10909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511489668, "dur":6965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511496641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511496657, "dur":11585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511510199, "dur":15463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511525670, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511525688, "dur":11343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511537181, "dur":6708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511543895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511543907, "dur":36820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511580861, "dur":6443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511587334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511587344, "dur":20827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511608275, "dur":181810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511790092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511790109, "dur":15482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511805681, "dur":3008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511808694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511808704, "dur":5617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511814418, "dur":68761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511883190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737511883213, "dur":10587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737511893938, "dur":463746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737512357713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737512357726, "dur":9816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737512367649, "dur":102388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737512470044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737512470060, "dur":44492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737512514634, "dur":111080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737512625721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737512625735, "dur":23012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714737512648930, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1714737512649097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714737512649187, "dur":27527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1714737512676982, "dur":419746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511316784, "dur":220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511317005, "dur":6191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511323200, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1714737511323613, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511335436, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1714737511338012, "dur":17412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1714737511355429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511355444, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1714737511359040, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1714737511359175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511360317, "dur":12409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1714737511372823, "dur":7381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511380213, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511380417, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511383072, "dur":7666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511390745, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511390762, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511394356, "dur":10431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511404792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511404895, "dur":6241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511411257, "dur":7671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511418932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511418946, "dur":5419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511424484, "dur":273184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511697676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511697693, "dur":47536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511745318, "dur":108256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511853582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737511853600, "dur":30880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737511884629, "dur":135573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737512020211, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737512020239, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737512024131, "dur":137335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737512161471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737512161489, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737512165353, "dur":400349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737512565707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737512565718, "dur":10173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714737512575991, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714737512576088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737512576100, "dur":15893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714737512592133, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1714737512592251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714737512592274, "dur":107617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1714737512700000, "dur":396779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511316851, "dur":167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511317019, "dur":6427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511323446, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1714737511323923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511330897, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1714737511334300, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1714737511335045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511335158, "dur":5446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1714737511340761, "dur":13927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714737511354692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511354709, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714737511357201, "dur":11040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714737511368251, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511368269, "dur":5144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714737511373554, "dur":7716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511381275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511381294, "dur":3831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511385390, "dur":9341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511394742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511394758, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511397222, "dur":7561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511404788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511404809, "dur":3813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511408921, "dur":9381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511418312, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511418332, "dur":7316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511425749, "dur":9489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511435242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511435256, "dur":4973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511440329, "dur":7599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511447933, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511447946, "dur":9727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511458104, "dur":9253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511467400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511467417, "dur":14568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511482255, "dur":9637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511491896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511491906, "dur":15908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511507994, "dur":12922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511520923, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511520943, "dur":8672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511529830, "dur":11768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511541603, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511541623, "dur":32694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511574430, "dur":12996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511587433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511587445, "dur":14309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511602426, "dur":104195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511706628, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511706644, "dur":38336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511745083, "dur":63513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511808604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511808622, "dur":6881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511815597, "dur":3741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511819443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737511819522, "dur":17322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737511836955, "dur":183652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737512020613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512020626, "dur":5564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737512026282, "dur":240291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737512266578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512266592, "dur":12832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737512279509, "dur":262221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737512541738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512541783, "dur":21125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714737512562998, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1714737512563209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512563733, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1714737512565073, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1714737512565169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512565279, "dur":5933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1714737512571295, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1714737512571378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512571390, "dur":18465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1714737512589966, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1714737512590051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512590068, "dur":13454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1714737512603663, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1714737512603939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512603949, "dur":19278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1714737512623323, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1714737512623438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512623457, "dur":10023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1714737512633680, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1714737512633943, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512634090, "dur":16461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1714737512650681, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1714737512650801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714737512650813, "dur":25026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1714737512676105, "dur":420634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511316893, "dur":132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511317025, "dur":6389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511323417, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1714737511323678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511331700, "dur":7173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1714737511339053, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1714737511339189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511339204, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1714737511341662, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1714737511341824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511341943, "dur":6132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1714737511348193, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1714737511348313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511348425, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1714737511351313, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1714737511351518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511351531, "dur":4433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1714737511356111, "dur":86942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511443062, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511443077, "dur":22464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511465663, "dur":7830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511473499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511473514, "dur":10015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511484318, "dur":13476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511497801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511497810, "dur":12200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511510427, "dur":11594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511522025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511522039, "dur":13027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511535213, "dur":8012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511543234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511543250, "dur":31984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511575388, "dur":11795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511587191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511587208, "dur":19758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511607107, "dur":199797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511806910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511807015, "dur":13924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511821033, "dur":65778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511886823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737511886838, "dur":4666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737511891612, "dur":196561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737512088183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737512088200, "dur":19129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737512107417, "dur":363009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737512470430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737512470443, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737512472560, "dur":619498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737513092067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714737513092083, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Solve To Survive/Build/Solve To Survive_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714737513096680, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1714737513096686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714737513102178, "dur":3525, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1714737513115884, "dur": 4100, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714737513115129, "dur": 4896, "ph": "X", "name": "Write chrome-trace events", "args": {} },
